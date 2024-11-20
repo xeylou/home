@@ -96,7 +96,7 @@ const bookmarks = [
       {
         id: "E17ZrbozF3VcU0OU",
         label: "docker",
-        url: "https://blog.microlinux.fr/formation-docker-04-executer/",
+        url: "https://blog.microlinux.fr/",
       },
     ],
   },
