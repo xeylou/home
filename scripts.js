@@ -100,27 +100,27 @@ const bookmarks = [
       },
     ],
   },
-  // {
-  //   id: "qVaUYMzwB8zHdHTL",
-  //   label: "other",
-  //   bookmarks: [
-  //     {
-  //       id: "jPpG0kntpb2vBBtK",
-  //       label: "youtube",
-  //       url: "https://youtube.com",
-  //     },
-  //     {
-  //       id: "jCWsEuQTk1oKomf1",
-  //       label: "anime",
-  //       url: "https://nyaa.si",
-  //     },
-  //     {
-  //       id: "ekBuhQL8rUt8jwjC",
-  //       label: "manga",
-  //       url: "https://mangascan-fr.com/",
-  //     },
-  //   ],
-  // },
+  {
+    id: "qVaUYMzwB8zHdHTL",
+    label: "other",
+    bookmarks: [
+      {
+        id: "jPpG0kntpb2vBBtK",
+        label: "youtube",
+        url: "https://youtube.com",
+      },
+      {
+        id: "jCWsEuQTk1oKomf1",
+        label: "anime",
+        url: "https://nyaa.si",
+      },
+      {
+        id: "ekBuhQL8rUt8jwjC",
+        label: "manga",
+        url: "https://mangascan-fr.com/",
+      },
+    ],
+  },
   {
     id: "vtf54i91k0J4prNa",
     label: "useful",
