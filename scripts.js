@@ -48,7 +48,107 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"BTm2w2hzLncaZ3E8","label":"uni","bookmarks":[{"id":"B7HjYsQ7ztrKrWRE","label":"timetable","url":"http://edt.xeylou.fr"},{"id":"YNLtIVz1SH1qIQAo","label":"courses","url":"https://elearn.univ-pau.fr/login/index.php"},{"id":"Thshjg1zQbErPwai","label":"mail","url":"https://partage.univ-pau.fr"}]},{"id":"ANREU2nxlKoOUu3N","label":"daily","bookmarks":[{"id":"suGPqKMKtbPimBUC","label":"github","url":"https://github.com/xeylou"},{"id":"I3vpNldcVl33IMzr","label":"mail#1","url":"https://laposte.net/accueil"},{"id":"WeP4AMu6kR8aiF8J","label":"mail#2","url":"https://outlook.live.com/mail/0/"},{"id":"E17ZrbozF3VcU0OU","label":"drive","url":"https://nextcloud.xeylou.fr"}]},{"id":"qVaUYMzwB8zHdHTL","label":"other","bookmarks":[{"id":"jPpG0kntpb2vBBtK","label":"youtube","url":"https://youtube.com"},{"id":"jCWsEuQTk1oKomf1","label":"anime","url":"https://nyaa.si"},{"id":"ekBuhQL8rUt8jwjC","label":"manga","url":"https://mangascan-fr.com/"}]},{"id":"vtf54i91k0J4prNa","label":"useful","bookmarks":[{"id":"C5U2DC1ej6PeukFZ","label":"whatismydns","url":"https://www.whatsmydns.net/domain-age"},{"id":"0G0obayQobJRLXV5","label":"monip","url":"https://monip.aditu.fr"},{"id":"XukT1fgELrf4PEOK","label":"speedtest","url":"https://librespeed.org"},{"id":"PnR9dtgWGT7du6hp","label":"dnsdumbster","url":"https://dnsdumpster.com/"}]}]
+/**
+ * Inject bookmarks into HTML
+ */
+
+const bookmarks = [
+  {
+    id: "BTm2w2hzLncaZ3E8",
+    label: "uni",
+    bookmarks: [
+      {
+        id: "B7HjYsQ7ztrKrWRE",
+        label: "timetable",
+        url: "https://webdfd.mines-ales.fr/planning-eleves/index.php?url=eleve/17277",
+      },
+      {
+        id: "YNLtIVz1SH1qIQAo",
+        label: "courses",
+        url: "https://campus2.mines-ales.fr/my/courses.php",
+      },
+      {
+        id: "YNLtIVz1SH1qIQAQ",
+        label: "caliap",
+        url: "https://caliap.mines-ales.fr/book/liste",
+      },
+    ],
+  },
+  {
+    id: "ANREU2nxlKoOUu3N",
+    label: "external",
+    bookmarks: [
+      {
+        id: "suGPqKMKtbPimBUC",
+        label: "notes",
+        url: "https://webdfd.mines-ales.fr/cybernotes/frames.php",
+      },
+      {
+        id: "I3vpNldcVl33IMzr",
+        label: "unix-users",
+        url: "https://admx.welibre.org/",
+      },
+      {
+        id: "WeP4AMu6kR8aiF8J",
+        label: "eth-hacking",
+        url: "https://github.com/nicosmash/Universities/blob/main/Labs/VirtualLab_What_to_do.md",
+      },
+      {
+        id: "E17ZrbozF3VcU0OU",
+        label: "docker",
+        url: "https://blog.microlinux.fr/formation-docker-04-executer/",
+      },
+    ],
+  },
+  // {
+  //   id: "qVaUYMzwB8zHdHTL",
+  //   label: "other",
+  //   bookmarks: [
+  //     {
+  //       id: "jPpG0kntpb2vBBtK",
+  //       label: "youtube",
+  //       url: "https://youtube.com",
+  //     },
+  //     {
+  //       id: "jCWsEuQTk1oKomf1",
+  //       label: "anime",
+  //       url: "https://nyaa.si",
+  //     },
+  //     {
+  //       id: "ekBuhQL8rUt8jwjC",
+  //       label: "manga",
+  //       url: "https://mangascan-fr.com/",
+  //     },
+  //   ],
+  // },
+  {
+    id: "vtf54i91k0J4prNa",
+    label: "useful",
+    bookmarks: [
+      {
+        id: "C5U2DC1ej6PeukFZ",
+        label: "whatismydns",
+        url: "https://www.whatsmydns.net/domain-age",
+      },
+      {
+        id: "0G0obayQobJRLXV5",
+        label: "monip",
+        url: "http://icanhazip.com/",
+      },
+      {
+        id: "XukT1fgELrf4PEOK",
+        label: "speedtest",
+        url: "https://librespeed.org",
+      },
+      {
+        id: "PnR9dtgWGT7du6hp",
+        label: "dnsdumbster",
+        url: "https://dnsdumpster.com/",
+      },
+    ],
+  },
+];
+
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
