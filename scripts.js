@@ -80,7 +80,7 @@ const bookmarks = [
     bookmarks: [
       {
         id: "suGPqKMKtbPimBUC",
-        label: "notes",
+        label: "grades",
         url: "https://webdfd.mines-ales.fr/cybernotes/frames.php",
       },
       {
